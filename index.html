@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Photography Website</title>
+    <title>Daniel's Photography Gallery</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -20,10 +21,12 @@
         }
         h1 {
             color: #444;
+            margin-bottom: 10px;
         }
         p {
             font-size: 1.2em;
             line-height: 1.6em;
+            margin-bottom: 20px;
         }
         .navigation {
             margin-top: 20px;
@@ -43,26 +46,34 @@
             width: 100%;
             height: auto;
             margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .gallery img:first-of-type {
+            margin-top: 0;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <!--         <h1>Future Lens Photography</h1> -->
-        <h1>Daniel's Gallery</h1>
-        <h1>Capturing Joy, Hope and Trust</h1>
+        <h1 data-aos="fade-down">Daniel's Gallery</h1>
+        <h1 data-aos="fade-down" data-aos-delay="200">Capturing Joy, Hope, and Trust</h1>
         <div class="gallery">
-            <img src="https://app2.pospirit.com/img/IMG_7741a.jpg" alt="Cornwall1">
-            <img src="https://app2.pospirit.com/img/IMG_7154b.jpg" alt="Stonehenge1">
-            <img src="https://app2.pospirit.com/img/IMG_88065.jpg" alt="WP1">
+            <img data-aos="fade-up" src="https://app2.pospirit.com/img/IMG_7741a.jpg" alt="Cornwall1">
+            <img data-aos="fade-up" data-aos-delay="200" src="https://app2.pospirit.com/img/IMG_7154b.jpg" alt="Stonehenge1">
+            <img data-aos="fade-up" data-aos-delay="400" src="https://app2.pospirit.com/img/IMG_88065.jpg" alt="WP1">
         </div>
-        <p>Hello! I'm Daniel Heo, and I have a passion for photography and enjoying the beautiful moments of life. Through my lens, I capture the essence of everyday experiences and the beauty of the world around us.</p>
+        <p data-aos="fade-up" data-aos-delay="600">Hello! I'm Daniel Heo, and I have a passion for photography and enjoying the beautiful moments of life. Through my lens, I capture the essence of everyday experiences and the beauty of the world around us.</p>
         
         <div class="navigation">
-            <p><a href="https://app2.pospirit.com/main.html">Login</a></p>
-            <p><a href="https://app2.pospirit.com/signup.html">Sign Up</a></p>
+            <p><a data-aos="fade-up" data-aos-delay="800" href="https://app2.pospirit.com/main.html">Login</a></p>
+            <p><a data-aos="fade-up" data-aos-delay="1000" href="https://app2.pospirit.com/signup.html">Sign Up</a></p>
         </div>
-
     </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
