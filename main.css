@@ -36,6 +36,20 @@
     background-color: #0000FF;
   }
 
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #1974d2;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #0000FF;
+  }
+
   button{
     width: 100%;
     padding: 10px;
