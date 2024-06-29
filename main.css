@@ -45,3 +45,13 @@
     border-radius: 4px;
     cursor: pointer;
  }
+
+  submit{
+    width: 100%;
+    padding: 10px;
+    background-color: #1974d2;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+ }
