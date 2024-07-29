@@ -1,7 +1,9 @@
 const poolData = {
     // Region: 'us-east-2',
-	  UserPoolId: 'us-east-2_yDf0Ybpez', // 사용자 풀 ID
-    ClientId: '4p33om4pd7i530pht0ou5b1fe8', // 클라이언트 ID
+    // UserPoolId: 'us-east-2_yDf0Ybpez', // 사용자 풀 ID
+    // ClientId: '4p33om4pd7i530pht0ou5b1fe8', // 클라이언트 ID
+    UserPoolId: 'us-east-2_58GlHxBQZ', // 사용자 풀 ID
+    ClientId: '114i7e0gg02tcgenn57ids9fn5', // 클라이언트 ID
 };
 
 // signup.html
